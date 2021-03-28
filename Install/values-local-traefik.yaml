@@ -217,7 +217,7 @@ microfunctionscontroller:
     ##
     metricsPort: 9117
 
-    externalTrafficPolicy: Cluster
+    externalTrafficPolicy: Local
     annotations: { }
     ## Limits which cidr blocks can connect to service's load balancer
     ## Only valid if service.type: LoadBalancer
@@ -228,16 +228,17 @@ microfunctionscontroller:
   ingress:
     enabled: true
     annotations:
-      kubernetes.io/ingress.class: kong
-      konghq.com/strip-path: "true"
-      cert-manager.io/cluster-issuer: "letsencrypt-prod"
+      nginx.ingress.kubernetes.io/rewrite-target: /$1
+#      kubernetes.io/ingress.class: kong
+#      konghq.com/strip-path: "true"
+#      cert-manager.io/cluster-issuer: "letsencrypt-prod"
     hosts:
       - host: microfunctions.local
-        paths: [ '/microfunctions/apis']
-    tls:
-      - secretName: chart-microfunctions-tls
-        hosts:
-          -  microfunctions.local
+        paths: [ '/microfunctions/apis/(.+)']
+#    tls:
+#      - secretName: chart-microfunctions-tls
+#        hosts:
+#          -  microfunctions.local
   resources: { }
     # We usually recommend not to specify default resources and to leave this as a conscious
     # choice for the user. This also increases chances charts run on environments with little
@@ -330,7 +331,7 @@ microfunctionsconsole:
     ## Enable client source IP preservation
     ## ref http://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/#preserving-the-client-source-ip
     ##
-    externalTrafficPolicy: Cluster
+    externalTrafficPolicy: Local
     annotations: { }
     ## Limits which cidr blocks can connect to service's load balancer
     ## Only valid if service.type: LoadBalancer
@@ -344,16 +345,16 @@ microfunctionsconsole:
   ##
   ingress:
     enabled: true
-    annotations:
-      kubernetes.io/ingress.class: kong
-      cert-manager.io/cluster-issuer: "letsencrypt-prod"
+#    annotations:
+#      kubernetes.io/ingress.class: kong
+#      cert-manager.io/cluster-issuer: "letsencrypt-prod"
     hosts:
       - host: microfunctions.local
         paths: [ '' ]
-    tls:
-      - secretName: chart-microfunctions-tls
-        hosts:
-          -  microfunctions.local
+#    tls:
+#      - secretName: chart-microfunctions-tls
+#        hosts:
+#          -  microfunctions.local
 
     resources: { }
       # We usually recommend not to specify default resources and to leave this as a conscious
@@ -406,7 +407,7 @@ nginx-ingress-controller:
 kong:
   enabled: true
   service:
-    type: LoadBalancer
+    type: ClusterIP
 metrics-server:
   enabled: true
   apiService:
@@ -416,6 +417,6 @@ metrics-server:
     kubelet-preferred-address-types: InternalIP
 
 cert-manager :
-  enabled: true
+  enabled: false
   installCRDs: true
   clusterResourceNamespace: microfunctions
