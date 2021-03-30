@@ -27,6 +27,8 @@ MicroFunctions is a combination of open source tools.
 - Kubeless Kubernetes-native serverless framework
 ## Architecture
 
+![MicroFunctions Architecture](https://user-images.githubusercontent.com/67606926/113028621-c403d800-918b-11eb-8fdf-58494e4f9e03.png)
+
 ## Prerequisites
 
 - Kubernetes v1.17+
