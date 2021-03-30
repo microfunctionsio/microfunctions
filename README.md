@@ -7,27 +7,50 @@
 
 - [x] Add Multi Namespace
 - [x] Add Multi Cluster (SupportVersions ['v1.17.*', 'v1.16.*', 'v1.17.*','v1.18.*','v1.19.*','v1.20.*'],supportDistributions ['digitalocean','vanilla'])
-- [x] Functions HTTPS
-- [x] Functions API
+- [x] Functions API(Https)
+- [x] Functions Services
 - [x] Functions Cronjob
 - [x] Functions Resource Quota
 - [x] Functions Autoscale
 - [x] Functions Metrics  
-- [x] Support for Python, Node.js, Golang
+- [x] Support Runtime (Python, Node.js, Golang)
 - [x] Authorization API (x-apikey-header)
+- [ ] Add Support Cluster Distributions(Aws,GKE,Azure,...)
+- [ ] Add Support Runtime(Php,.Net ,java ...)
+- [ ] Namespace Resource Quota
 - [ ] Dashboard (coming soon)
-- [ ] webApp (coming soon)
+- [ ] WebApp (coming soon)
 - [ ] User types (coming soon)
-- [ ] Add Cluster Distributions(aws,GCE - GKE,Azure,...)
+
 
 ## How it works
 MicroFunctions is a combination of open source tools.
 - Kong Ingress Controller implements authentication, transformations, and other functionalities across Kubernetes clusters
 - cert-manager controller.  issuing certificates from a variety of sources
 - Kubeless Kubernetes-native serverless framework
+
 ## Architecture
 
-![MicroFunctions Architecture](https://user-images.githubusercontent.com/67606926/113028621-c403d800-918b-11eb-8fdf-58494e4f9e03.png)
+![MicroFunctions Architecture](https://user-images.githubusercontent.com/67606926/113031923-8dc85780-918f-11eb-9f7d-64a4e31a4f6a.png)
+
+## repositories
+[Microfunctions-helm](https://github.com/microfunctionsio/microfunctions-helm)
+
+[Microfunctions-console](https://github.com/microfunctionsio/microfunctions-console)
+
+[Microfunctions-controller](https://github.com/microfunctionsio/microfunctions-controller)
+
+[Microfunctions-cluster](https://github.com/microfunctionsio/microfunctions-cluster)
+
+[Microfunctions-serverless](https://github.com/microfunctionsio/microfunctions-serverless)
+
+[Microfunctions-init](https://github.com/microfunctionsio/microfunctions-init-job)
+
+## Development Setup
+
+Have you found a bug :bug: ? Or maybe you have a nice feature :sparkles: to contribute ? The [CONTRIBUTING guide](https://github.com/microfunctionsio/microfunctions/blob/main/CONTRIBUTING.md) will help you get your development environment ready in minutes.
+
+Email: bensassi.mohammed@gmail.com 
 
 ## Prerequisites
 
