@@ -15,9 +15,10 @@
 - [x] Functions Metrics  
 - [x] Support Runtime (Python, Node.js, Golang)
 - [x] Authorization API (x-apikey-header)
-- [ ] Add Support Cluster Distributions(Aws,GKE,Azure,...)
-- [ ] Add Support Runtime(Php,.Net ,java ...)
-- [ ] Namespace Resource Quota
+- [ ] Add microFunctions-cli-api 
+- [ ] Add Support Cluster Distributions(Aws,GKE,Azure,...)(coming soon)
+- [ ] Add Support Runtime(Php,.Net ,java ...) (coming soon)
+- [ ] Namespace Resource Quota (coming soon)
 - [ ] Dashboard (coming soon)
 - [ ] WebApp (coming soon)
 - [ ] User types (coming soon)
@@ -31,7 +32,7 @@ MicroFunctions is a combination of open source tools.
 
 ## Architecture
 
-![MicroFunctions Architecture](https://user-images.githubusercontent.com/67606926/113031923-8dc85780-918f-11eb-9f7d-64a4e31a4f6a.png)
+![MicroFunctions Architecture](https://user-images.githubusercontent.com/67606926/113181595-41921b80-9252-11eb-87b7-4b60112ac99e.png)
 
 ## repositories
 [Microfunctions-helm](https://github.com/microfunctionsio/microfunctions-helm)
@@ -64,7 +65,7 @@ Email: bensassi.mohammed@gmail.com
 $ helm repo add  microfunctions https://microfunctionsio.github.io/microfunctions-helm
 $ helm install my-release microfunctions/microfunctions -n microfunctions --create-namespace 
 ```
-
+[Instal local with Docker Desktop](https://github.com/microfunctionsio/microfunctions/blob/main/Install/install.md)
 ## Uninstall Chart
 ```console
 # Helm

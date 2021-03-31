@@ -406,7 +406,7 @@ nginx-ingress-controller:
 kong:
   enabled: true
   service:
-    type: ClusterIP
+    type: LoadBalancer
 metrics-server:
   enabled: true
   apiService:
