@@ -13,7 +13,7 @@
 ```console
 # Helm
 $ helm repo add  microfunctions https://microfunctionsio.github.io/microfunctions-helm
-$ helm install microfunctions microfunctions/microfunctions -n microfunctions --create-namespace --values="https://github.com/microfunctionsio/microfunctions/blob/main/Install/values-local-ingress.yaml" 
+$ helm install microfunctions microfunctions/microfunctions -n microfunctions --create-namespace --values=https://raw.githubusercontent.com/microfunctionsio/microfunctions/main/Install/values-local-ingress.yaml
 ```
 To add a host name, microfunctions.local , with an IP address 127.0.0.1 , add the following line in the /etc/hosts file:
 
