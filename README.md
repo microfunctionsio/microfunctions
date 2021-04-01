@@ -3,7 +3,7 @@
   <a href="https://microfunctions.io" target="blank"><img src="http://www.microfunctions.io/wp-content/uploads/2020/07/New-Project-3.png" width="320" alt="Microfunctions Logo" /></a>
 </p>
 
-[MicroFunctions](https://microFunctions.io/)  is open-source serverless platform bthat lets you deploy small bits of code without having to worry about the underlying infrastructure plumbing. It leverages Kubernetes  resources to provide auto-scaling, API routing, monitoring, troubleshooting and supports every programming language. (Nodejs,Go,python,..).
+[MicroFunctions](https://microFunctions.io/) is open-source Kubernetes Native Serverless platform bthat lets you deploy small bits of code without having to worry about the underlying infrastructure plumbing. It leverages Kubernetes  resources to provide auto-scaling, API routing, monitoring, troubleshooting and supports every programming language. (Nodejs,Go,python,..).
 
 - [x] Add Multi Namespace
 - [x] Add Multi Cluster (SupportVersions ['v1.17.*', 'v1.16.*', 'v1.17.*','v1.18.*','v1.19.*','v1.20.*'],supportDistributions ['digitalocean','vanilla'])
