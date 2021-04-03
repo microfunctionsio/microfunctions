@@ -6,7 +6,7 @@
 [MicroFunctions](https://microFunctions.io/) is open-source Kubernetes Native Serverless platform bthat lets you deploy small bits of code without having to worry about the underlying infrastructure plumbing. It leverages Kubernetes  resources to provide auto-scaling, API routing, monitoring, troubleshooting and supports every programming language. (Nodejs,Go,python,..).
 
 - [x] Add Multi Namespace
-- [x] Add Multi Cluster (SupportVersions ['v1.17.*', 'v1.16.*', 'v1.17.*','v1.18.*','v1.19.*','v1.20.*'],supportDistributions ['digitalocean','vanilla'])
+- [x] Add Multi Cluster 
 - [x] Functions API(Https)
 - [x] Functions Services
 - [x] Functions Cronjob
@@ -16,7 +16,6 @@
 - [x] Support Runtime (Python, Node.js, Golang)
 - [x] Authorization API (x-apikey-header)
 - [ ] Add microFunctions-cli-api 
-- [ ] Add Support Cluster Distributions(Aws,GKE,Azure,...)(coming soon)
 - [ ] Add Support Runtime(Php,.Net ,java ...) (coming soon)
 - [ ] Namespace Resource Quota (coming soon)
 - [ ] Dashboard (coming soon)
