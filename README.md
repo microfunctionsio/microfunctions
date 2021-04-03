@@ -54,8 +54,7 @@ MicroFunctions is a combination of open source tools.
 ## Development Setup
 
 Have you found a bug :bug: ? Or maybe you have a nice feature :sparkles: to contribute ? The [CONTRIBUTING guide](https://github.com/microfunctionsio/microfunctions/blob/main/CONTRIBUTING.md) will help you get your development environment ready in minutes.
-
-Email: bensassi.mohammed@gmail.com 
+ 
 
 ## Prerequisites
 
