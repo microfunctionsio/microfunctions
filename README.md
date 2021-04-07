@@ -13,6 +13,7 @@
 - [x] Functions Resource Quota
 - [x] Functions Autoscale
 - [x] Functions Metrics  
+- [x] Code editor
 - [x] Support Runtime (Python, Node.js, Golang)
 - [x] Authorization API (x-apikey-header)
 - [ ] Add microFunctions-cli-api 
