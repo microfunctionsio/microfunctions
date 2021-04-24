@@ -7,7 +7,7 @@ If you find a bug in the source code, you can help us by
 
 ## <a name="feature"></a> Missing a Feature?
 
-You can _request_ a new feature by [submitting an issue]() to our GitHub
+You can _request_ a new feature by [submitting an issue](https://github.com/microfunctionsio/microfunctions/issues) to our GitHub
 Repository. If you would like to _implement_ a new feature, please submit an issue with
 a proposal for your work first, to be sure that we can use it.
 Please consider what kind of change it is:
