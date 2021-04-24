@@ -45,6 +45,10 @@ MicroFunctions is a combination of open source tools.
 
 [Microfunctions-controller](https://github.com/microfunctionsio/microfunctions-controller)
 
+[Microfunctions-apis](https://github.com/microfunctionsio/microfunctions-apis)
+
+[Microfunctions-auth](https://github.com/microfunctionsio/microfunctions-auth)
+
 [Microfunctions-cluster](https://github.com/microfunctionsio/microfunctions-cluster)
 
 [Microfunctions-serverless](https://github.com/microfunctionsio/microfunctions-serverless)
