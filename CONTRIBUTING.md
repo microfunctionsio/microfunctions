@@ -16,3 +16,15 @@ Please consider what kind of change it is:
   discussed. This will also allow us to better coordinate our efforts, prevent duplication of work,
   and help you to craft the change so that it is successfully accepted into the project. For your issue name, please prefix your proposal with `[discussion]`, for example "[discussion]: your feature idea".
 - **Small Features** can be crafted and directly [submitted as a Pull Request]().
+
+## wiki local development 
+
+- install [Mongodb.app](https://github.com/gcollazo/mongodbapp)
+  - Create Database
+  - Add User(microfunctions/password)[readWirite]
+
+- install [RabbitMQ.app](https://jpadilla.github.io/rabbitmqapp)
+  - add User (microfunctions/password) 
+  - set permissions [/]
+
+- Add user password in config.local.env
