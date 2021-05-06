@@ -17,7 +17,9 @@ Please consider what kind of change it is:
   and help you to craft the change so that it is successfully accepted into the project. For your issue name, please prefix your proposal with `[discussion]`, for example "[discussion]: your feature idea".
 - **Small Features** can be crafted and directly [submitted as a Pull Request]().
 
-## wiki local development 
+## wiki 
+
+## local development 
 
 - install [Mongodb.app](https://github.com/gcollazo/mongodbapp)
   - Create Database
@@ -28,3 +30,4 @@ Please consider what kind of change it is:
   - set permissions [/]
 
 - Add user password in config.local.env
+
