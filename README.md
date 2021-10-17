@@ -17,10 +17,10 @@
 - [x] Code editor
 - [x] Support Runtime (Python, Node.js, Golang)
 - [x] Authorization API (x-apikey-header)
+- [x] Dashboard 
+- [ ] WebApp (coming soon)
 - [ ] Add microFunctions-cli-api 
 - [ ] Namespace Resource Quota (coming soon)
-- [x] Dashboard (coming soon)
-- [ ] WebApp (coming soon)
 - [ ] User types (coming soon)
 
 
