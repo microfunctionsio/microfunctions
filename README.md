@@ -18,9 +18,8 @@
 - [x] Support Runtime (Python, Node.js, Golang)
 - [x] Authorization API (x-apikey-header)
 - [ ] Add microFunctions-cli-api 
-- [ ] Add Support Runtime(Php,.Net ,java ...) (coming soon)
 - [ ] Namespace Resource Quota (coming soon)
-- [ ] Dashboard (coming soon)
+- [x] Dashboard (coming soon)
 - [ ] WebApp (coming soon)
 - [ ] User types (coming soon)
 
